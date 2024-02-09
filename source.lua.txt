@@ -229,7 +229,7 @@ function SAO:Intro()
 	password.TextWrapped = true
 	password.TextXAlignment = Enum.TextXAlignment.Left
 
-	username.Name = "username"
+	username.Name = "NTB HUB"
 	username.Parent = LogInpage
 	username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	username.BackgroundTransparency = 1.000
