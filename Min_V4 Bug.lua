@@ -366,7 +366,7 @@ function Update:Window(text,logo,keybind)
     Ping.Position = UDim2.new(0.28, 0,0.074, 0)
     Ping.Size = UDim2.new(0, 225, 0, 25)
     Ping.Font = Enum.Font.GothamSemibold
-    Ping.Text = "Blox Fruit | discord.gg/Dg5nr8CrVV          [RightControl]"
+    Ping.Text = "Blox Fruit | https://discord.com/invite/zMnk8YVZ          [RightControl]"
     Ping.TextColor3 = Color3.fromRGB(255,255,255)
     Ping.TextSize = 14.000
     Ping.TextXAlignment = Enum.TextXAlignment.Left
@@ -382,7 +382,7 @@ function Update:Window(text,logo,keybind)
     User.Size = UDim2.new(0, 125, 0, 40)
     
     local UserText = Instance.new("TextLabel")
-    UserText.Name = "User NTB"
+    UserText.Name = "NTB HUB"
     UserText.Parent = User
     UserText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     UserText.BackgroundTransparency = 1.000
@@ -546,7 +546,7 @@ function Update:Window(text,logo,keybind)
         IDK.BackgroundTransparency = 1.000
         IDK.Position = UDim2.new(0, 3, 0, 3)
         IDK.Size = UDim2.new(0, 20, 0, 20)
-        IDK.Image = "rbxassetid://" .. tostring(img)
+        IDK.Image = "rbxassetid://16286200428" .. tostring(img)
         TUICorner.CornerRadius = UDim.new(0, 3)
         TUICorner.Parent = TabButton
 
