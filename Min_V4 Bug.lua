@@ -115,7 +115,7 @@ function Notif.New(text, timee)
     uicorner_2.Parent = text_button
 
     local image_button = Instance.new("ImageButton")
-    image_button.Image = "rbxassetid://3926305904"
+    image_button.Image = "rbxassetid://16286200428"
     image_button.ImageColor3 = Color3.new(0.784314, 0.784314, 0.784314)
     image_button.ImageRectOffset = Vector2.new(924, 724)
     image_button.ImageRectSize = Vector2.new(36, 36)
@@ -188,7 +188,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://13717478897"
+ImageButton1.Image = "rbxassetid://16286200428"
 ImageButton1.MouseButton1Down:connect(function()
 game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -374,7 +374,7 @@ function Update:Window(text,logo,keybind)
 
 
     local User = Instance.new("Frame")
-    User.Name = "User"
+    User.Name = "NTB HUB"
     User.Parent = Top
     User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     User.BackgroundTransparency = 1.000
@@ -382,7 +382,7 @@ function Update:Window(text,logo,keybind)
     User.Size = UDim2.new(0, 125, 0, 40)
     
     local UserText = Instance.new("TextLabel")
-    UserText.Name = "UserText"
+    UserText.Name = "User NTB"
     UserText.Parent = User
     UserText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     UserText.BackgroundTransparency = 1.000
@@ -390,7 +390,7 @@ function Update:Window(text,logo,keybind)
     UserText.TextColor3 = Color3.fromRGB(255, 255, 255)
     UserText.Size = UDim2.new(0, 80, 0, 25)
     UserText.Font = Enum.Font.GothamSemibold
-    UserText.Text = "TienTiny.Space"
+    UserText.Text = "NTB HUB"
     UserText.TextScaled = true
     UserText.TextSize = 17.000
     UserText.TextWrapped = true
@@ -407,7 +407,7 @@ function Update:Window(text,logo,keybind)
   --  UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://13717478897"
+    UserImage.Image = "rbxassetid://16286200428"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -420,7 +420,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://"
+	Logo.Image = "rbxassetid://16286200428"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
