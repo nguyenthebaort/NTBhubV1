@@ -785,7 +785,7 @@ function Update:Window(text,logo,keybind)
     local main = {}
     function main:AddButton(text, callback)
         if logo == nil then
-            logo = "15009422255"
+            logo = "16286200428"
         end
         local Button = Instance.new("Frame")
         local UICorner = Instance.new("UICorner")
@@ -822,7 +822,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://13717478897"
+        ImageButton.Image = "rbxassetid://16286200428"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -885,7 +885,7 @@ function Update:Window(text,logo,keybind)
     function main:AddToggle(TogInfo ,default, callback)
         local toggle = false
         if logo == nil then
-            logo = "15009422255"
+            logo = "16286200428"
         end
         local CheckFrame = Instance.new("Frame")
         local CheckFrame2 = Instance.new("Frame")
